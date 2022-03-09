@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BMI</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ponderal_index_10_64kg_m3">Ponderal index: 10.64kg/m3</string>
+    <string name="normal_bmi_range">Normal BMI range: 18.5kg/m2 - 25kg/m2</string>
+
+
+</resources>

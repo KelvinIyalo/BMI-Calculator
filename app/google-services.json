@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "226503054168",
+    "project_id": "bmi-kelvin",
+    "storage_bucket": "bmi-kelvin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226503054168:android:b42f86893b9ae964408b2d",
+        "android_client_info": {
+          "package_name": "com.example.bmi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226503054168-8l725o08l4tj0024uq5l1j6h9phamjgd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjsA5k8ZSu_xQbkixh6g5OfRT5SWxC5yw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226503054168-8l725o08l4tj0024uq5l1j6h9phamjgd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
