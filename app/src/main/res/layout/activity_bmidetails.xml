@@ -7,10 +7,52 @@
     tools:context=".BMIDetailsActivity"
     android:id="@+id/linearLayout">
 
+    <androidx.appcompat.widget.Toolbar
+        android:layout_marginTop="0dp"
+        android:id="@+id/toolbar"
+        style="?attr/actionBarSize"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_tool"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/back_btn"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_back"
+                app:tint="@color/gray"/>
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BMI Details"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:layout_marginStart="25dp"
+                android:layout_gravity="center"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
     <LinearLayout
 
         android:id="@+id/linearLayout2"
-        android:layout_width="378dp"
+        android:layout_width="0dp"
         android:layout_height="496dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="60dp"
@@ -20,7 +62,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
 
         <View
 
@@ -128,6 +170,21 @@
 
 
     </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

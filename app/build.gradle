@@ -47,4 +47,5 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation 'io.github.ShawnLin013:number-picker:2.4.13'
+    implementation 'com.google.android.gms:play-services-ads:20.6.0'
 }
